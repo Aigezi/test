@@ -11,14 +11,10 @@ public class Sigleton01 {
 
 		System.out.println(instance1 == instance2);
 	}
-	
-	
-	
-	
 
 }
 
-//饿汉式(静态常量)
+//饿汉式-------静态常量
 
 class Singleton{
 	//1，构造器私有化
